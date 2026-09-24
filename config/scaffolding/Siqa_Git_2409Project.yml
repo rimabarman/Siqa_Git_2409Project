@@ -1,0 +1,12 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Siqa_Git_2409Project
+  gitServerName: srcCtrl_GitHub_Rima
+  gitUrl: https://github.com/rimabarman
+  gitUsername: rimabarman
+  gitBranch: main
+configurationVariables:
+  jdbcfunc.SAPTxStore.failFastMode: false
+  jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
